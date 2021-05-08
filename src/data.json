@@ -1,0 +1,35 @@
+{
+    "products":[{
+        "_id": "shirt1", 
+        "title": "TMM Shirt 1", 
+        "description": "black and white with logo",
+        "image": "images/shirt1.jpg",
+        "price": 19, 
+        "availableSizes": ["XL","XXL"]
+        },
+        {
+            "_id": "shirt2", 
+            "title": "TMM Shirt 2", 
+            "description": "white and black with logo",
+            "image": "images/shirt2.jpg",
+            "price": 19, 
+            "availableSizes": ["XL","XXL"]
+        },
+        {
+            "_id": "hoody1", 
+            "title": "TMM Warm Hoody 1", 
+            "description": "100% cotton with logo embroided",
+            "image": "images/hoody1.jpg",
+            "price": 34, 
+            "availableSizes": ["L","XL","XXL"]
+        },
+        {
+            "_id": "hoody2", 
+            "title": "TMM Warm Hoody 2", 
+            "description": "100% cotton with large logo",
+            "image": "images/hoody2.jpg",
+            "price": 34, 
+            "availableSizes": ["L","XL","XXL"]
+        }
+    ]
+}
