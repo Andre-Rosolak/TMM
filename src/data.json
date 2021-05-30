@@ -1,11 +1,12 @@
 {
-    "products":[{
-        "_id": "shirt1", 
-        "title": "TMM Shirt 1", 
-        "description": "black and white with logo",
-        "image": "images/shirt1.jpg",
-        "price": 19, 
-        "availableSizes": ["XL","XXL"]
+    "products":[
+        {
+            "_id": "shirt1", 
+            "title": "TMM Shirt 1", 
+            "description": "black and white with logo",
+            "image": "images/shirt1.jpg",
+            "price": 19, 
+            "availableSizes": ["XL","XXL"]
         },
         {
             "_id": "shirt2", 
