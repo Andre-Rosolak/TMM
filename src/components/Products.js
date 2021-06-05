@@ -11,13 +11,11 @@ export default class Products extends Component {
                             <div className="product">
                                 <a href={"#" + product._id}>
                                     <img src={product.image} alt={product.title}></img>
-                                    <p>
-                                        {product.title}
-                                    </p>
+                                    <p>{product.title}</p>
                                 </a>
                                 <div className="product-price">
                                     <div>{formatCurreny(product.price)}</div>
-                                    <button className="button primary">Add To Cart</button>
+                                    <button onClick={()=> this.props.addToCart(product)} className="button primary">Add To Cart</button>
                                 </div>
                             </div>
                         </li>
