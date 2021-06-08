@@ -40,10 +40,10 @@ export default class Products extends Component {
                 </ul>
                 </Fade>
                 { product && (
-                    <Modal isOpen={true}>
-                        onRequestClose={this.close}
+                    <Modal isOpen={true}
+                        onRequestClose={this.close}>
                         <Zoom>
-                            <button className="close-modal" onClick={this.closeModal}></button>
+                            <button className="close-modal" onClick={this.closeModal}>x</button>
                             <div className="product-details">
                                 <img src={product.image} alt={product.title}></img>
                                 <div className="product-details-description">
